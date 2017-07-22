@@ -3,17 +3,17 @@ mkdir gittest
 cd gittest
 git init
 touch index.html styles.css aboutMe.txt
-git add
+git add .
 git commit -m 'this is the first commit'
 vi aboutMe.txt
-git add
+git add .
 git commit -m 'updated aboutMe'
 vi aboutMe.txt
-git add
+git add .
 git commit -m 'added favorite movie to aboutMe'
 git log
 git revert 'alphanumeric stuff'
 vi aboutMe.txt
-git add
+git add .
 git commit -m 'this is where i changed movie to book. i think'
 
